@@ -1,0 +1,8 @@
+#peruseContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#routeInput {
+    width: 100%;
+}

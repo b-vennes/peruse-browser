@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+        <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self'">
+        <meta http-equiv="X-Content-Security-Policy" content="default-src *; script-src 'self'">
+        <title>Peruse</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
+        <link rel="stylesheet" href="syles.css">
+    </head>
+    <body>
+        <div id="peruseContainer">
+            <input id="routeInput" type="text" placeholder="location"></input>
+
+            <button id="peruseButton">Peruse!</button>
+        </div>
+
+        <div id="contentDisplay"></div>
+    </body>
+</html>
